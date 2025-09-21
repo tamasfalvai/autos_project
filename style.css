@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN:wght@100..400&display=swap');
+
+#kép{
+    width: 100%;
+}
+
+img{
+    border-radius: 2%;
+}
+
+#img{
+    width: 100%;
+    
+}
+
+/* .content{
+    width: 80%;
+    padding-left: 100px;
+} */
+
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background: hsla(32, 29%, 10%);
+    color: hsl(0, 0%, 70%);
+    text-align: justify;
+    
+}
+
+header{
+    /* display: none; */
+    background-image: url(./KÉPEKK/1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    text-align: center;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;       /* átmegy rajra a szöveg */
+    padding: 20rem;
+    height: 30rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    /*  Playwrite Việt Nam */
+    color: #000;
+    text-shadow: 6px 6px 5px #ffe6a7;
+}
+
+
+main{
+    width: 93%;
+    margin: 0 auto;
+    background-color: #3c321c;
+    border-radius:  20px;
+    padding: 10px;
+    
+}
+main p{
+    text-align: justify;
+    margin: 1 rem 0 ;
+    padding: 10px;
+    font-family: "Lato", serif;
+    letter-spacing: 2px;
+    
+}
+
+
+main h1, main h2{
+    font-size: 40px;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 1rem  0;
+}
+
+.klasz{
+    font-style: italic;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    font-size: 18px
+}
+
+footer{
+    text-align: center;
+    letter-spacing: 4px;
+    background-image: url(./KÉPEKK/4\,3.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;  
+    height: 900px;
+}
+
+footer h1{
+    padding: 20px;
+    padding-top: 100px;
+    color: #000000;
+    text-shadow: 6px 6px 6px #c31717;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 80px;
+    padding-top: 400px;
+    
+}
+
+footer p {
+    margin: 0 300px 0 300px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 6px 6px 5px #ffe6a7;
+    
+}
+
+#Sport{
+    width: 50%;
+    float: right;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.péé{
+    font-size: 18px;
+    padding: 15px;
+    text-transform:lowercase;
+    
+}
+hr{
+    margin: 0 400px 0 400px;
+    margin-top: 0%;
+}
+h3{
+    font-size: 30px;
+    padding: 10px 0 10px 0 ;
+    text-shadow: #ffe6a7 4px 4px 10px;
+}
+
+ol{
+    padding-left:  100px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Lato", serif;
+}
+
+#ezegydiv{
+    background: #321e12;
+    border-radius: 3%;
+    padding: 10px;
+    height: 540px;
+} 
+
+.box{
+    width: 10rem;
+    background: #ffe6a7;
+    color: #000;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.box:hover{
+    width: 40rem;
+}
+
+.box h3{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    gap: 1rem;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+table{
+    margin: 2rem auto;
+    font-size: 20px;    
+}
+
+table, td, th {
+    border: 3px solid #877958;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+td,th{
+    padding: 1rem;
+}
+th{
+    background: #ffe6a7;
+    color: #000;
+    font-size: 20px;
+}
+
+nav ul li  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: none;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding: 0 16px 0 16px;
+    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    font-size: 40px;
+}
+nav ul li:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#táblázat{
+    /* background: #321e12; */
+    border-radius: 3%;
+    /* margin: 0 450px; */
+    float: left;
+    padding-left: 200px;
+    
+}
+#ű{
+    text-align: center;
+    margin-top: 0%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ez egy UI VERSERŐL LESZEDETT KÓD */ 
+.flip-card {
+    background-color: transparent;
+    width: 240px;
+    height: 154px;
+    perspective: 1000px;
+    color: white;
+    float: right;
+    padding-top: 0%;
+    padding-bottom: 15px;
+    padding-right:  300px; 
+    padding-top: 250px;
+  }
+  
+  .heading_8264 {
+    position: absolute;
+    letter-spacing: .2em;
+    font-size: 0.5em;
+    top: 2em;
+    left: 18.6em;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 6.8em;
+    left: 11.7em;
+  }
+  
+  .chip {
+    position: absolute;
+    top: 2.3em;
+    left: 1.5em;
+  }
+  
+  .contactless {
+    position: absolute;
+    top: 3.5em;
+    left: 12.4em;
+  }
+  
+  .number {
+    position: absolute;
+    font-weight: bold;
+    font-size: .6em;
+    top: 8.3em;
+    left: 1.6em;
+  }
+  
+  .valid_thru {
+    position: absolute;
+    font-weight: bold;
+    top: 635.8em;
+    font-size: .01em;
+    left: 140.3em;
+  }
+  
+  .date_8264 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.5em;
+    top: 13.6em;
+    left: 3.2em;
+  }
+  
+  .name {
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.5em;
+    top: 16.1em;
+    left: 2em;
+  }
+  
+  .strip {
+    position: absolute;
+    background-color: black;
+    width: 15em;
+    height: 1.5em;
+    top: 2.4em;
+    background: repeating-linear-gradient(
+      45deg,
+      #303030,
+      #303030 10px,
+      #202020 10px,
+      #202020 20px
+    );
+  }
+  
+  .mstrip {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 8em;
+    height: 0.8em;
+    top: 5em;
+    left: .8em;
+    border-radius: 2.5px;
+  }
+  
+  .sstrip {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 4.1em;
+    height: 0.8em;
+    top: 5em;
+    left: 10em;
+    border-radius: 2.5px;
+  }
+  
+  .code {
+    font-weight: bold;
+    text-align: center;
+    margin: .2em;
+    color: black;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+    background-color: #171717;
+  }
+  
+  .flip-card-back {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+    background-color: #171717;
+    transform: rotateY(180deg)
+  }
